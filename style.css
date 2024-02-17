@@ -47,6 +47,12 @@
     font-style: italic;
   }
 }
+main {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* header section section start  */
 .header {
   width: 1320px;
   margin: 0 auto;
@@ -73,4 +79,28 @@
 }
 .header-title {
   padding-top: 177px;
+}
+
+/* discount section started  */
+.discount-title {
+  color: red;
+  font-weight: 700;
+  font-size: 88px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.discount-body {
+  text-align: center;
+}
+.discount-body > h5 {
+  font-weight: 500;
+  color: red;
+  font-size: 24px;
+}
+.discount-body > h4 {
+  font-size: 48px;
+}
+.discount-body > img {
+  width: 802.9px;
+  height: 500px;
 }
