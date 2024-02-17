@@ -1,0 +1,16 @@
+.header {
+  width: 1320px;
+  margin: 0 auto;
+  background-image: url(./resources/Banner\ Image.png);
+  height: 600px;
+}
+
+.header > h3,
+.header > h1 {
+  color: white;
+  text-align: center;
+}
+
+.header > h3 {
+  font-size: 32px;
+}
