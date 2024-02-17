@@ -296,3 +296,24 @@ main {
   opacity: 1;
   cursor: pointer;
 }
+
+/* subscribe section start  */
+
+.subscribe {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.subscribe h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input-section {
+}
