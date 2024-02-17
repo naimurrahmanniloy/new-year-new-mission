@@ -291,10 +291,29 @@ main {
   color: rgba(7, 2, 17, 0.6);
   width: 896px;
 }
-.portfolio-img:hover {
-  background: red;
-  opacity: 1;
+.portfolio-container {
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.portfolio-img {
+  width: 400px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+.portfolio-img img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.portfolio-img img:hover {
   cursor: pointer;
+  transform: scale(1.3);
+  z-index: 2;
 }
 
 /* subscribe section start  */
