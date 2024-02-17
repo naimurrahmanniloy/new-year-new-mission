@@ -346,10 +346,10 @@ main {
 
 .input-section > input {
   width: 648px;
-  padding: 18px;
+  padding: 16px;
   border-radius: 20px 0px 0px 20px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 .input-section > button {
   width: 210px;
@@ -357,4 +357,66 @@ main {
   border-radius: 0px 20px 20px 0px;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+/* footer section start  */
+footer {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgb(7, 2, 17);
+  height: 609px;
+  margin-top: 120px;
+  color: white;
+  margin-top: 120px;
+}
+.footer-section {
+  margin-top: 100px;
+}
+.footer-section hr {
+  width: 1520px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 30px;
+}
+.upper-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upper-footer-title {
+  font-size: 24px;
+  font-weight: 500;
+  width: 375px;
+  align-items: center;
+}
+.upper-footer-info {
+  display: flex;
+  align-items: center;
+}
+.upper-footer-info > img {
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
+.upper-footer-info > p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.mid-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.mid-footer > img {
+  margin: 6px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+.low-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.low-footer > h5,
+.low-footer > h4 {
+  font-size: 24px;
+  font-weight: 500;
 }
