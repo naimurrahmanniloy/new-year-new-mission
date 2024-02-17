@@ -1,3 +1,52 @@
+* {
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+}
 .header {
   width: 1320px;
   margin: 0 auto;
@@ -5,12 +54,23 @@
   height: 600px;
 }
 
-.header > h3,
-.header > h1 {
+.header-title > h3,
+.header-title > h1 {
   color: white;
+  margin: 0 auto;
+  width: 632px;
   text-align: center;
 }
 
-.header > h3 {
+.header-title > h3 {
   font-size: 32px;
+  font-weight: 400;
+}
+
+.header-title > h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+.header-title {
+  padding-top: 177px;
 }
