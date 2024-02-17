@@ -51,6 +51,16 @@ main {
   width: 1320px;
   margin: 0 auto;
 }
+/* shared style  */
+.btn-primary {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  width: 167px;
+  height: 56px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
 
 /* header section section start  */
 .header {
@@ -103,4 +113,33 @@ main {
 .discount-body > img {
   width: 802.9px;
   height: 500px;
+}
+
+/* midnight party section start   */
+.midnight-party {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(./resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.midnight-party-text {
+  color: white;
+}
+
+.midnight-party-text > h1 {
+  width: 642px;
+  font-size: 64px;
+  font-weight: 900;
+}
+.midnight-party-text > p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.midnight-party-img {
+  margin-left: 50px;
 }
